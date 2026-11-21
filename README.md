@@ -1,5 +1,5 @@
 # EX.No.-2.2 CREATE A 3D SOLID MODEL FROM ISOMETRIC DRAWING
-## Date :
+## DATE : 21/11/2026
 
 ## AIM: 
 
@@ -11,100 +11,69 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 3. 16 GB of RAM (integrated graphics recommend 1 GB or more)
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
-## STEP-2:  Select the Sketch Plane
- Select the TOP (XY) Plane
+## PROCEDURE:
+Step 1 -- Open a New File and Start a Sketch Open a new file in Autodesk Fusion 360 and select the Sketch icon to begin creating the 2D sketch.
 
-## STEP-3: Create a Sketch 
-1.  Select Sketch > Rectangle > Center Rectangle.
-2.  Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.  Click once to begin placing the rectangle.
-4.  Type the Tab button and enter the values 56 mm and 18mm for the width and height respectively.
-5.  Select Sketch > Arc > Center point arc.
-6.  Click again to place the value (Both end of the sketch). You should see the cursor snap to this location
-7.  Type the Tab button and enter the values R 18mm
-8.  Select Sketch > circle > Center point circle.
-9.  Click again to place the value (Both side of the sketch). You should see the cursor snap to this location
-10. Type the Tab button and enter the values dia 16mm
-11. Click again to place the sketch.
-12. Click Finish Sketch after completing.
+<img width="545" height="607" alt="step 1" src="https://github.com/user-attachments/assets/f3144989-6252-43d3-9a44-520ce9c53a8c" />
 
-## STEP-4: Extrude Sketch in XY Plane
-1.	Select Extrude.
-2.	Select the sketch.
-3.	Click again to place the value.
-4.	Type in the value of 8mm. 
-5.	Press ENTER to accept the value.
 
-## STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
+Tool: Create Sketch / Sketch icon.
 
-## STEP-6: Select the Sketch Plane
-	Select the TOP SURFACE of the 3D block 
-  
-## STEP-7: Create a RECTANGLE 
-1.	Select Sketch > RECTANGLE  > CENTER RECTANGLE.
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the RECTANGLE.
-4.	Type the Tab button and enter the values 40mm and 10mm for the width and height respectively
-5.	Click again to place the RECTANGLE.
-6.	Click Finish Sketch after completing.
+Step 2 -- Select the Sketch Plane Select the required plane on which the 2D sketch will be created.
 
-## STEP-8:  Extrude RECTANGLE 
-1.	Select Extrude.
-2.	Select the Rectangle sketch.
-3.	Click again to place the value.
-4.	Type in the value of 32mm. 
-5.	Press ENTER to accept the value.
+Tool/command: Sketch Plane Selection.
 
-## STEP-9: Create a TRIANGLE 
-1.	Select Sketch > TRIANGLE > CENTER TRIANGLE .
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the TRIANGLE.
-4.	Type the Tab button and enter the values 32mm and 12mm for the width and height respectively
-5.	Click again to place the TRIANGLE.
-6.	Click Finish Sketch after completing.
+Step 3 -- Draw the Given Sketch Using Sketching Features Use the sketching features to draw the given dimensioned profile.
 
-## STEP-10:  Extrude TRIANGLE
-1.	Select Extrude.
-2.	Select the TRIANGLE sketch.
-3.	Click again to place the value.
-4.	Type in the value of 6mm in both direction option. 
-5.	Press ENTER to accept the value.
+<img width="721" height="671" alt="circle" src="https://github.com/user-attachments/assets/2b2b7757-bd45-4ed4-954b-13c42ff8fc16" />
 
-## STEP-11: Create a PENTAGON 
-1.	Select Sketch > polygon > circumscribed polygon.
-2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the polygon.
-4.	Type the Tab button and enter the values 40mm and 30mm, for the width and height respectively and Choose 3 Side
-5.	Click again to place the polygon.
-6.	Click Finish Sketch after completing.
 
-## STEP-12: Extrude PENTAGON
-1.	Select Extrude.
-2.	Select the PENTAGON sketch.
-3.	Click again to place the value.
-4.	Type in the value of 10mm. 
-5.	Press ENTER to accept the value.
+Tools: - Line -- to create straight lines. - Circle -- to create circular geometry. - Arc -- to create curved portions. - Rectangle -- to create rectangular geometry. - Polygon -- to create polygonal geometry.
 
-## STEP-13: Create a CIRCLE 
-1.	Select Sketch > CIRCLE > CENTER CIRCLE.
-2.	Now hover over the origin (Pentagan end side) of the sketch. You should see the cursor snap to this location.
-3.	Click once to begin placing the CIRCLE.
-4.	Type the Tab button and enter the value DIA 30mm and 20mm, inner and outer diameter respectively .
-5.	Click again to place the circle.
-6.	Click Finish Sketch after completing.
+Choose the sketch entities needed to reproduce the supplied drawing.
 
-## STEP-14:  Extrude CIRCLE 
-1.	Select Extrude.
-2.	Select the pentogan sketch.
-3.	Click again to place the value.
-4.	Type in the value of 10mm on both side. 
-5.	Press ENTER to accept the value.
+Step 4 -- Edit the Sketch Using Sketch Modifying Features Use the sketch modifying features to edit and refine the sketch.
 
-## INPUT:
+<img width="613" height="630" alt="modify" src="https://github.com/user-attachments/assets/c5afe5d5-b03f-47a9-97da-b839a8af7582" />
+
+
+modify Tools: - Cut - Trim - Mirror - Move
+
+Apply the relevant modifying features to the sketch while following the given drawing.
+
+Step 5 -- Measure the Sketch Dimensions Use the Inspect feature to measure and check the dimensions of the sketch.
+
+<img width="703" height="695" alt="rectangle" src="https://github.com/user-attachments/assets/23e845f8-7004-42f8-b337-37db6128d10e" />
+
+
+Tool: Inspect.
+
+Step 6 -- Finalize the Sketch After completing the sketch, select Finish Sketch to finalize it.
+
+<img width="432" height="430" alt="finish sketch" src="https://github.com/user-attachments/assets/800f09b3-8399-4960-9ea6-aff2fb5f3e64" />
+
+
+Tool/command: Finish Sketch.
+
+Step 7 -- Switch to Drawing Mode and Create the ISO Drawing After finishing the sketch, switch to Drawing mode and plot the sketch using the ISO standard.
+
+<img width="505" height="733" alt="draw" src="https://github.com/user-attachments/assets/335eab7a-ce7d-42d6-ae8f-db9992da9fe1" />
+
+
+Workspace/setting: Drawing → ISO standard.
+
+## SKETCH:
+Use the given exercise drawing as the reference while creating the
+sketch. Follow the dimensions and geometry shown in that drawing.
+
 ![image](https://user-images.githubusercontent.com/113594316/198523331-05ace360-502b-4569-b9b4-31c60e3cd554.png)
 
-Output:
+## OUTPUT:
+The completed drawing should represent the given sketch, plotted in ISO
+standard using Autodesk Fusion 360.
+
+<img width="1506" height="1063" alt="Screenshot 2026-11-21 111557" src="https://github.com/user-attachments/assets/407ad124-c521-4bf5-b89c-5535fe9e5843" />
+
 
 ## RESULT: 
 Thus, the 3D model is created from given isometric drawing.
